@@ -11,7 +11,7 @@ const CartNavbar = (props) => {
   };
   return (
     <>
-      <div className={`hidden md:flex flex-col absolute  shadow-xl left-0 bg-[#ffffff] w-full mx-auto z-40  h-[300px] justify-between items-center duration-300 transition-all py-4 ${isMenuOpen ? 'top-14' : '-top-[500%]'}`}>
+      <div className={`hidden md:flex flex-col absolute  shadow-xl left-0 bg-[#ffffff] w-full mx-auto z-40  h-[300px] justify-between items-center duration-300 transition-all py-4 ${isMenuOpen ? 'top-20' : '-top-[500%]'}`}>
         <Link className="text-xl" to="/">Home</Link>
         <Link className="text-xl" to="/shop">Shop</Link>
         <Link className="text-xl" to="/blog">Blog</Link>
