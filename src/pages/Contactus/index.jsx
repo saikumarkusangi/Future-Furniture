@@ -20,7 +20,7 @@ const ContactusPage = () => {
     <>
       <div className="bg-gray-50 flex flex-col font-rubik sm:gap-10 md:gap-10 gap-[100px] items-start justify-start mx-auto w-auto sm:w-full md:w-full">
         <div className="flex flex-col md:gap-10 gap-[75px] items-start justify-start w-full">
-          <Header className="bg-white-A700 flex items-center justify-center md:px-5 px-[75px] py-[35px] w-full" />
+        <CartNavbar className="bg-white-A700 flex items-center justify-center md:px-5 py-[35px] w-full " />
           <div className="flex flex-col font-poppins items-start justify-start md:px-10 sm:px-5 px-[75px] w-full">
             <div className="flex flex-col items-start justify-start max-w-[1291px] mx-auto w-full">
               <div className="h-[450px] relative w-full">
